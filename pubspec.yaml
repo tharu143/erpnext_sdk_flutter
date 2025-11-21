@@ -1,0 +1,27 @@
+name: erpnext_sdk_flutter
+description: A production-ready ERPNext SDK for Flutter/Dart focused on mobile apps.
+version: 1.0.0
+repository: https://github.com/tharu143/erpnext_sdk_flutter
+issue_tracker: https://github.com/tharu143/erpnext_sdk_flutter/issues
+homepage: https://github.com/tharu143/erpnext_sdk_flutter
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  http_parser: ^4.0.2
+  mime: ^1.0.4
+  path: ^1.8.3
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.24.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  lints: ^2.1.1
